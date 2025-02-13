@@ -1,18 +1,249 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Holyoke Delegation Visit to Kerry</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
     
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS via CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons via CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styling using the St. Patrick's Day Color Palette -->
+    <style>
+      body {
+        background-color: #12352e;
+        color: #f6f2e2; /* Dark green for text */
+      }
+      .navbar {
+        background-color: #f6f2e2;
+      }
+      .navbar h1, p {
+        color: #12352e;
+      }
+      .accordion-button {
+        background-color: #dbb22e;
+        color: #12352e;
+        font-size: 2rem;
+      }
+      .accordion-button:not(.collapsed) {
+        background-color: #f6f2e2;
+        color: #12352e;
+      }
+      .accordion-body {
+        background-color: #f6f2e2;
+        color: #12352e;
+      }
+      a {
+        color: #12352e;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #007e3d;
+        text-decoration: solid underline 2px;
+        text-underline-offset: 4px;
+      }
+
+      h1, h2, h3 {
+        font-family: Amarante;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+      }
+
+      h2 {
+        font-size: 2.75rem;
+      }
+
+      body {
+        font-family: Montserrat;
+      }
+
+      li {
+        padding: 5px 0px;
+      }
+
+    </style>
   </head>
   <body>
-    <!-- Your content here -->
+    <!-- Navbar with Co-Branding Logos -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container d-flex flex-sm-row-reverse bd-highlight justify-content-between align-items-center gap-3 my-4">
+        <div class="p-2 bd-highlight">
+            <a href="https://holyokestpatricksparade.com/" target="_blank">
+                <img
+                  src="./images/spch-logo-dark@2x.png"
+                  alt="St. Patrick's Committee of Holyoke"
+                  style="height: 120px;"
+                  class="p-2"
+                />
+              </a>
+              <a href="https://www.discoverkerry.com/" target="_blank">
+                <img
+                  src="./images/discover-kerry-logo-dark.png"
+                  alt="Discovery Kerry"
+                  style="height: 120px;"
+                  class="p-2"
+                />
+              </a>
+            </div>
+        <div class="p-2 bd-highlight">
+            <h1 style="text-transform: uppercase;">Holyoke to Co. Kerry</h1>
+            <p style="font-family: Amarante; font-size: 1.5rem; text-transform: uppercase;">SUNDAY, MARCH 16TH - TUESDAY, MARCH 18TH, 2025</p>
+        </div>
+      </div>
+    </nav>
     
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Main Content -->
+    <div class="container my-4">
+      <h2 class="mb-4" style="color: #dbb22e;">Itinerary</h2>
+      <p style="color: #f6f2e2;">Starting on Sunday, March 16th, 2025, a dedicated contingent from Holyoke, Massachusetts, will journey to County Kerry for an enriching cultural exchange. Our preliminary itinerary outlines three exciting days: a warm welcome and arrival on Sunday, vibrant St. Patrick’s Day festivities on Monday, and a day of cultural exploration on Tuesday, March 18th. Please note that this schedule is provisional, with some details still being finalized.</p>
+      <div class="accordion" id="itineraryAccordion">
+        <!-- Day 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <i class="bi bi-calendar-event me-2"></i>Day 1: Sunday, March 16th, 2025
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#itineraryAccordion"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <strong>6:00pm - 7:00pm:</strong> Delegation arrives in Co Kerry.
+                </li>
+                <li>
+                  <strong>Civic Welcome:</strong> Sit down meal at the 
+                  <a href="https://traleebaywetlands.org/" target="_blank">Tralee Bay Wetlands</a>
+                  with Irish music and more.
+                </li>
+                <li>
+                  <strong>Attendees:</strong> Tralee MD Elected Members, St. Patrick’s Day Committee, and invited guests.
+                </li>
+                <li>
+                  <strong>Activities:</strong> Presentations and formal speeches.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Day 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              <i class="bi bi-calendar-event me-2"></i>Day 2: Monday, March 17th, 2025 <img src="./images/shamrock-dark.svg" style="height: 2rem; padding-left: 20px;"></img>
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#itineraryAccordion"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <strong>9:00 - 10:00:</strong> Meet with the St Patrick’s Day Committee for refreshments (pastries, sausage rolls, scones, etc.) at the 
+                  <a href="https://www.grandhoteltralee.com/" target="_blank">Grand Hotel</a>.
+                </li>
+                <li>
+                  <strong>11:00 - 13:00:</strong> St. Patrick’s Day Parade with Grand Marshall Mayor Garcia and the Holyoke Parade Committee.
+                </li>
+                <li>
+                  Heritage Trail following the parade: 
+                  <a href="https://storymaps.arcgis.com/stories/7047eff138064ba89b47174432e810f6" target="_blank">Tralee Heritage Trail</a>.
+                </li>
+                <li>Post-parade refreshments (venue TBC).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Day 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              <i class="bi bi-calendar-event me-2"></i>Day 3: Tuesday, March 18th, 2025
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#itineraryAccordion"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <strong>11:00 - 15:00:</strong> Site visit to the Bakery School and tour of 
+                  <a href="https://blennerville-windmill.ie/" target="_blank">Blennerville Windmill</a>.
+                </li>
+                <li>
+                  Round table discussions with Kerry County Council at 
+                  <a href="https://www.therosehotel.com/" target="_blank">The Rose Hotel</a>.
+                </li>
+                <li>
+                  <strong>Presentations:</strong>
+                  <ul>
+                    <li>Windmill Bakery School Update</li>
+                    <li>Tralee Urban Regeneration Project</li>
+                  </ul>
+                </li>
+                <li>
+                  Lunch at The Rose Hotel, followed by a walk through Town Park and a tour of the 
+                  <a href="https://kerrymuseum.ie/" target="_blank">Kerry County Museum</a>.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- Bootstrap Bundle with Popper via CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
   </body>
 </html>
